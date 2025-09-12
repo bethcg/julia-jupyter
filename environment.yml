@@ -1,0 +1,14 @@
+name: "test-env"
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+ - gradio
+ - geopandas
+ - matplotlib
+ - pandas 
+ - scikit-learn
+# - add packages here
+# - one per line
+prefix: "/opt/conda"
+
