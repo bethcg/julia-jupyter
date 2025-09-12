@@ -8,5 +8,4 @@ RUN sudo apt-get update
 # install the python dependencies
 COPY environment.yml /tmp/
 RUN mamba env update -q -f /tmp/environment.yml && \
-    /opt/conda/bin/pip install -r /tmp/requirements.txt --no-cache-dir && \
     mamba clean -y --all
