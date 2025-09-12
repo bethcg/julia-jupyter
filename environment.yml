@@ -3,11 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
- - gradio
- - geopandas
- - matplotlib
- - pandas 
- - scikit-learn
+ - jupyterlab-git
 # - add packages here
 # - one per line
 prefix: "/opt/conda"
