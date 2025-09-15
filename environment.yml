@@ -4,6 +4,9 @@ channels:
   - nodefaults
 dependencies:
  - jupyterlab-git
+ - JuMP
+ - HiGHS
+ - gurobi
 # - add packages here
 # - one per line
 prefix: "/opt/conda"
