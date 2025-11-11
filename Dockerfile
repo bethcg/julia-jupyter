@@ -5,4 +5,5 @@ RUN julia -e 'import Pkg; Pkg.add(["HiGHS"])'
 RUN julia -e 'import Pkg; Pkg.add(["Gurobi"])'
 RUN julia -e 'import Pkg; Pkg.add(["Cbc"])'
 RUN julia -e 'import Pkg; Pkg.add(["Dates"])'
+RUN julia -e 'import Pkg; Pkg.add(["IJulia""])'
 RUN pip install jupyterlab-git
